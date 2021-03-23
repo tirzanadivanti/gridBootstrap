@@ -11,12 +11,13 @@
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" /> -->
     <style>
-        .row {
+        .bg-secondary {
+            margin: 5px;
             height: 200px;
         }
 
-        .bg-secondary {
-            margin: 5px;
+        .tinggi {
+            height: 400px;
         }
     </style>
     <title>Grid</title>
@@ -25,44 +26,56 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-4 bg-secondary"></div>
-            <div class="col bg-secondary"></div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="bg-secondary">
+                    1
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-8">
+                <div class="bg-secondary">
+                    2
+                </div>
+            </div>
         </div>
         <div class="row">
-            <div class="col-4 bg-secondary"></div>
-            <div class="col-4 bg-secondary"></div>
-            <div class="col">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="bg-secondary tinggi">
+                    3
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="bg-secondary tinggi">
+                    4
+                </div>
+            </div>
+            <div class="col-lg-4">
                 <div class="row">
-                    <div class="col-12 bg-secondary"></div>
+                    <div class="col-lg-12">
+                        <div class="bg-secondary">
+                            5
+                        </div>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 bg-secondary"></div>
+                    <div class="col-lg-12">
+                        <div class="bg-secondary">
+                            6
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- <div class="container">
-        <h1>Responsive Bootstrap</h1>
-        <div class="row">
-            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5" style="background-color:red;">Span 5</div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" style="background-color:blue">Span 3</div>
-            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-2" style="padding:0px">
-                <div class="short-div" style="background-color:green">Span 2</div>
-                <div class="short-div" style="background-color:purple">Span 2</div>
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-2" style="background-color:yellow">Span 2</div>
-        </div>
-    </div> -->
 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
-    </script>
+    </script> -->
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
